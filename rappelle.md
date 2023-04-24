@@ -1,6 +1,6 @@
-# Rapelle 
+# Rapelle
 
-## Pour push :
+## Pour push
 
 ```sh
 git init
