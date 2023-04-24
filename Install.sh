@@ -106,6 +106,22 @@ else
     sudo apt-get install -y lldb
 fi
 
+############################ PARTIE Python:
+# Langage de programation utilité : Haut niveau et Langage orientée objet
+# Vérifier si Python est installé
+if ! command -v python &> /dev/null
+then
+    # Si Python n'est pas installé, l'installer
+    sudo apt-get update
+    sudo apt-get install python3
+    sudo apt-get install python3-pip
+    python3 -m pip install --upgrade pip setuptools
+    echo "WARNING!! Metre a la fin de zsh ou bash : export PATH="\$PATH:/home/yatsu/.local/bin""
+else
+    # Si Python est déjà installé, afficher un message
+    echo "Python est déjà installé sur ce système."
+fi
+
 ############################ PARTIE FIGMA :
 # SERT A :
 # Editer et concevoir des interfaces graphiques.

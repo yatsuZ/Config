@@ -9,3 +9,5 @@ colorscheme ron
 set number
 set colorcolumn=80
 set mouse=a
+let g:user42 = 'yzaoui'
+let g:mail42 = 'yzaoui@student.42.fr'
