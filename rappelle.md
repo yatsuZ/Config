@@ -20,3 +20,7 @@ git push -u origin main
 
 - ln -s permet de faire des lien, et de redirection.
 - xdg-open permet douvrire un explorateur de fichier TRES UTILE.
+
+## Reste
+
+Utilise [Excalidraw](https://excalidraw.com/) Pour faire des schame mais a besoin dinternet je dois chercher si on peut pas avoir une variante en local.
