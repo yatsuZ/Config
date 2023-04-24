@@ -10,3 +10,7 @@ Y a des extension avec vscode mais je prefere diretement installer les commandes
 [Norminette 42.](https://github.com/42School/norminette).
 
 [Header 42 pour VIM.](https://github.com/42Paris/42header), je n'ai pas encore reussi.
+
+VSCODE :
+
+42 header et le reste jinstalle en fonction de ce que j'ai besoin.
