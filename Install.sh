@@ -106,6 +106,14 @@ else
     sudo apt-get install -y lldb
 fi
 
+############################ PARTIE Valgrind:
+# SERT A : Debeuguer du code TRES UTILE.
+# Verifie les leak de memoire.
+if is_installed valgrind; then
+    echo "Valgrind est déjà installé."
+else
+    sudo apt-get install -y valgrind
+fi
 ############################ PARTIE Python:
 # Langage de programation utilité : Haut niveau et Langage orientée objet
 # Vérifier si Python est installé
