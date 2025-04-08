@@ -63,11 +63,11 @@ fi
 # nimporte ou + gerer mes travaux 
 # en local avec git.
 
-if is_installed git; then
-    echo "Git est déjà installé."
-else
-    sudo apt-get install -y git
-fi
+#if is_installed git; then
+#    echo "Git est déjà installé."
+#else
+#    sudo apt-get install -y git
+#fi
 
 ############################ PARTIE OW MY ZSH :
 # source : https://ohmyz.sh/
